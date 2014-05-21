@@ -8,6 +8,7 @@
             <bean class="org.springframework.http.converter.BufferedImageHttpMessageConverter"/>
         </mvc:message-converters>
     </mvc:annotation-driven>
+    <!--<mvc:annotation-driven/>-->
 
     <bean id="contentNegotiationManager" class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
         <property name="favorPathExtension" value="true" />

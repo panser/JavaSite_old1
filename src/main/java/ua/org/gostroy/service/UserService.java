@@ -6,14 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ua.org.gostroy.entity.User;
-//import ua.org.gostroy.repository.UserDAO;
+import ua.org.gostroy.repository.UserDAO;
 
 import java.util.List;
 
 /**
  * Created by panser on 5/21/14.
  */
-/*
 @Service
 @Transactional
 public class UserService {
@@ -49,4 +48,3 @@ public class UserService {
         log.trace("update.");
     }
 }
-*/
