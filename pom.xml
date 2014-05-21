@@ -229,7 +229,6 @@
 
 
 
-<!--
         <dependency>
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
@@ -250,7 +249,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
--->
 
 
         <!--SPRING SECURITY-->
@@ -276,11 +274,13 @@
         </dependency>
 
 
+<!--
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>annotations-api</artifactId>
             <version>6.0.13</version>
         </dependency>
+-->
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>
